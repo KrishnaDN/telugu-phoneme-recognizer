@@ -1,2 +1,2 @@
 # telugu-phoneme-recognizer
-Telugu phone recognition using GMM-HMM
+Building Telugu phoneme alignment model using GMM-HMM
