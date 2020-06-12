@@ -107,10 +107,10 @@ if [ $stage -le 6 ]; then
     data/train data/lang_nosp exp/tri2b_ali_train exp/tri3b
  
  steps/align_si.sh  --nj 5 --cmd run.pl --use-graphs true \
-    data/train data/lang_nosp exp/tri2b exp/tri3b_ali_train
+    data/train data/lang_nosp exp/tri3b exp/tri3b_ali_train
  
  steps/align_si.sh  --nj 5 --cmd run.pl --use-graphs false \
-    data/test data/lang_nosp exp/tri2b exp/tri3b_ali_test
+    data/test data/lang_nosp exp/tri3b exp/tri3b_ali_test
 
 fi
 
